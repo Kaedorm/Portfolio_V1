@@ -4,18 +4,19 @@ $font-1: 'Josefin',serif;
 $font-2: 'Quicksand',
 sans-serif;
 
-$color-1: #2a1d52;
-$color-2: #6C77F4;
+$color-1: #09009B;
+$color-2: #0F00FF;
 $color-3: rgb(99, 164, 233);
-$color-4: #4FEDD2;
-$color-5: #36d0EA;
+$color-4: #FFA400;
+$color-5: #D98C00;
 $white: #ddd;
 $black: #333;
 
 $borderRadius: 15px;
 $shadow: 0 1px 2px #444;
 $minHeight: 95vh;
-
+ 
+//can be called everywhere to set up
 @mixin verticalCenter {
     display: flex;
     justify-content: center;
@@ -29,8 +30,7 @@ $minHeight: 95vh;
 }
 
 body {
-    margin: 1rem;
-    max-width: 1200px;
+    margin: 1.5rem;
     font-family: $font-1;
     color: $black;
 }

@@ -20,20 +20,20 @@ const Navigation = () => {
                     <span>Accueil</span>
                    </NavLink>
                 </li>
-                < li >
+                <li>
                     <NavLink exact to="/competences" activeClassName="navActive">
                     <i className="fa fa-mountain"></i>
                     <span>Compétences</span>
                    </NavLink>
                 </li>
-                < li >
+                <li>
                    <NavLink exact to="/portfolio" activeClassName="navActive">
                      <i className="fa fa-images"></i>
                      <span>Portfolio</span>
                    </NavLink>
                 </li>
-                < li >
-                   <NavLink exact to="/" activeClassName="navActive">
+                <li>
+                   <NavLink exact to="/contact" activeClassName="navActive">
                      <i className="fa fa-address-book"></i>
                      <span>Contact</span>
                    </NavLink>
@@ -51,11 +51,13 @@ const Navigation = () => {
 
                         </li>
                     </ul>
+
+                    <div className="signature">
+                        <p>Kae - 2021</p>
+                    </div>
                 </div>
 
-                <div className="signature">
-                    <p>Kae - 2021</p>
-                </div>
+
 
         </div>
     );
