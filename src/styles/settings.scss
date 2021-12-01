@@ -4,11 +4,11 @@ $font-1: 'Josefin',serif;
 $font-2: 'Quicksand',
 sans-serif;
 
-$color-1: #09009B;
-$color-2: #0F00FF;
-$color-3: rgb(99, 164, 233);
-$color-4: #FFA400;
-$color-5: #D98C00;
+$color-1: #48466D;
+$color-2: #3D84A8;
+$color-3: #46CDCF;
+$color-4: #ABEDD8;
+$color-5: #EAE3C8;
 $white: #ddd;
 $black: #333;
 
@@ -33,6 +33,7 @@ body {
     margin: 1.5rem;
     font-family: $font-1;
     color: $black;
+    background: $white;
 }
 
 button {

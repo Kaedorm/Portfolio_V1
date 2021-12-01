@@ -7,8 +7,8 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src={ProfilePic} alt="Profile Pic"/>
                     <h3>Frédéric Tron</h3>
+                    <img src={ProfilePic} alt="Profile Pic"/>
                 </div>
             </div>
 
@@ -30,6 +30,12 @@ const Navigation = () => {
                    <NavLink exact to="/portfolio" activeClassName="navActive">
                      <i className="fa fa-images"></i>
                      <span>Portfolio</span>
+                   </NavLink>
+                </li>
+                <li>
+                   <NavLink exact to="/mavieavant" activeClassName="navActive">
+                     <i className="fa fa-backward"></i>
+                     <span>Ma vie avant</span>
                    </NavLink>
                 </li>
                 <li>
