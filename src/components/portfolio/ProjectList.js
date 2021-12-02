@@ -17,7 +17,7 @@ class ProjectList extends Component {
 
                 <div className="projects">
                     {
-                        projects.map((item)=>{
+                        projects.map(item=>{
                             return(
                                 <Project
                                 key= {item.id}
