@@ -50,10 +50,10 @@ const Navigation = () => {
                 <div className="socialNetwork">
                     <ul>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/frederictron/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-linkedin"></i></a>
                         </li>
                         < li >
-                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github"></i></a>
+                            <a href="https://github.com/Kaedorm?tab=repositories" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github"></i></a>
 
                         </li>
                     </ul>

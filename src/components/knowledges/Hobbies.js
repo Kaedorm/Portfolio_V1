@@ -8,22 +8,22 @@ const Hobbies = () => {
                 <li className="hobby">
                     <i className="fas fa-running"></i>
                     <span>Course à pieds</span>
-                    <p>lorem dmddfslgkjqsdf mmlkj mlkj moli  pkmjh mkljh</p>
+                    <p>Pratique régulière depuis 5 ans, en collines.</p>
                 </li>
                  <li className="hobby">
                     <i class = "fas fa-dice-d20"></i>
                     <span>Jeux de Rôles</span>
-                    <p> lorem dmddfslgkjqsdf mmlkj mlkj moli pkmjh mkljh </p>
+                    <p>Crée et organise des scéances pour des groupes de joueurs depuis plus de 20 ans.</p>
                 </li>
                 <li className = "hobby">
                     <i class = "fas fa-guitar"></i> 
                     <span>Guitare</span>
-                    <p> lorem dmddfslgkjqsdf mmlkj mlkj moli pkmjh mkljh </p> 
+                    <p>Joue seul ou en duo, depuis 15 ans.</p> 
                 </li>
                 <li className = "hobby">
                     <i class = "fas fa-fill-drip"></i> 
-                    <span> Impression 3D </span>
-                    <p> lorem dmddfslgkjqsdf mmlkj mlkj moli pkmjh mkljh </p> 
+                    <span> Impression 3D</span>
+                    <p>Création de figurines pour jeux sur tables. </p> 
                 </li>
             </ul>
         </div>

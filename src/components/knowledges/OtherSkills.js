@@ -13,33 +13,27 @@ const OtherSkills = () => {
                     <li><i className="far fa-check-circle"></i>
                     Github</li>
                     <li><i className="far fa-check-circle"></i>
-                    Management</li>
-                    <li><i className="far fa-check-circle"></i>
                     Méthodes agiles</li>
                 </ul>
                 <ul>
                     <li><i className="far fa-check-circle"></i>
-                    Anglais courant</li>
+                    Architecture et conception</li>
                     <li><i className="far fa-check-circle"></i>
-                    Italien courant</li>
+                    Sens relationnel</li>
                     <li><i className="far fa-check-circle"></i>
-                    Github</li>
+                    Esprit d 'équipe</li>
                     <li><i className="far fa-check-circle"></i>
-                    Management</li>
-                    <li><i className="far fa-check-circle"></i>
-                    Méthodes agiles</li>
+                    Prospection commerciale</li>
                 </ul>
                 <ul>
                     <li><i className="far fa-check-circle"></i>
-                    Anglais courant</li>
+                    Relations commerciales</li>
                     <li><i className="far fa-check-circle"></i>
-                    Italien courant</li>
+                    Gestion, management </li>
                     <li><i className="far fa-check-circle"></i>
-                    Github</li>
+                    Communication écrite et orale</li>
                     <li><i className="far fa-check-circle"></i>
-                    Management</li>
-                    <li><i className="far fa-check-circle"></i>
-                    Méthodes agiles</li>
+                    Reporting et suivis</li>
                 </ul>
             </div>
         </div>

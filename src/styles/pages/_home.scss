@@ -23,7 +23,7 @@
             position: absolute;
             top: 20%;
             left: 13%;
-            font-family: $font-1;
+            font-family: $font-2;
 
             h1 {
                 font-size: 5rem;
@@ -39,6 +39,12 @@
                 padding: 1.5rem 0 7rem;
                 color: $color-3;
                 text-shadow: 1px 4px 1px $black;
+            }
+
+            p{
+                width: 35%;
+                margin-bottom: 3rem;
+                font-size: 1.3rem;
             }
 
             .pdf {

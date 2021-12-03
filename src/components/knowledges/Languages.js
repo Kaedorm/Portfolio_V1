@@ -3,33 +3,36 @@ import ProgressBar from './ProgressBar'
 
 class Languages extends Component {
     state = {
-        languages:[
-            {id:1, value: 'Javascript', xp: 1.9},
-            {id:2, value: 'CSS', xp: 1.8},
-            {id:3, value: 'SQL', xp: 1.8},
-            {id:4, value: 'HTML', xp: 1.9},
+        frontend:[
+            {id:1, value: 'Javascript', xp: 5},
+            {id:2, value: 'CSS', xp: 6},
+            {id:3, value: 'sass', xp: 1},
+            {id:4, value: 'React', xp: 2},
         ],
-        frameworks:[
-           {id:1, value: 'NodeJs', xp: 2}, 
-           {id:2, value: 'React', xp: 0.8},
-           {id:3, value: 'sass', xp: 0.6},
-           {id:4, value: 'Semantic UI', xp: 0.6},
+        backend:[
+            {id:1, value: 'NodeJs', xp: 5.5}, 
+            {id:2, value: 'SQL', xp: 5},
+            {id:3, value: 'Express', xp: 6},
+            {id:4, value: 'GraphQL', xp: 1.5},
+            {id:5, value: 'MongoDB', xp: 1},
+
+
         ],
     }
     render() {
-        let { languages, frameworks } = this.state; 
+        let { frontend, backend } = this.state; 
 
         return (
             <div className="languagesFrameworks">
                <ProgressBar 
-                    languages={languages}
+                    languages={frontend}
                     className="languagesDisplay"
-                    title="Langages"
+                    title="Front-end"
                />
                <ProgressBar 
-                    languages={frameworks}
+                    languages={backend}
                     className="frameworksDisplay"
-                    title="Frameworks & bibliothèques"
+                    title="Back-end"
                />
             </div>
         );
