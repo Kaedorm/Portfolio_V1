@@ -4,8 +4,10 @@ import Project from './Project'
 
 class ProjectList extends Component {
     state= {
-        projects: portfolioData
-    }
+        projects: portfolioData,
+    };
+
+
 
 
     render() {
@@ -13,7 +15,6 @@ class ProjectList extends Component {
 
         return (
             <div className="portfolioContent">
-                <ul className="radioDisplay"></ul>
 
                 <div className="projects">
                     {
@@ -29,7 +30,7 @@ class ProjectList extends Component {
                 </div>
             </div>
         );
-    }
-}
+    };
+};
 
 export default ProjectList;
