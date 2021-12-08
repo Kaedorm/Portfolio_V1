@@ -33,7 +33,7 @@ const Navigation = () => {
                    </NavLink>
                 </li>
                 <li>
-                   <NavLink exact to="/mavieavant" activeClassName="navActive">
+                   <NavLink exact to="/formerlife" activeClassName="navActive">
                      <i className="fa fa-backward"></i>
                      <span>Ma vie avant</span>
                    </NavLink>

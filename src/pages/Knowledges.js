@@ -8,7 +8,7 @@ import Navigation from '../components/Navigation';
 const Knowledges = () => {
     return (
         <div className="knowledges">
-            <Navigation />
+            <Navigation/>
             <div className="knowledgesContent">
                 <Languages />
                 <OtherSkills />
