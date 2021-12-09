@@ -12,7 +12,7 @@ class Project extends Component {
     };
 
     render() {
-        let {name, languages, languagesIcons, source, info, picture,url} = this.props.item; 
+        let {name, languagesIcons, source, info, picture,url} = this.props.item; 
 
         return (
             <div className="project">

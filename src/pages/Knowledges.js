@@ -10,10 +10,10 @@ const Knowledges = () => {
         <div className="knowledges">
             <Navigation/>
             <div className="knowledgesContent">
-                <Languages />
-                <OtherSkills />
-                <Experience />
-                <Hobbies />
+                <Languages/>
+                <OtherSkills/>
+                <Experience/>
+                <Hobbies/>
             </div>
         </div>
     );

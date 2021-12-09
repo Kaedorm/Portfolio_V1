@@ -1,4 +1,11 @@
 .knowledges{
+    a{
+        color: $color-5;
+        text-decoration: underline;
+    }
+    a:visited {
+        color: $color-4;
+    };
     
     .knowledgesContent{
         margin-left: .5rem;
@@ -162,6 +169,7 @@
                     height: 100%;
                     margin: 0 auto;
                     justify-content: space-between;
+                    align-items: baseline;
 
                     ul {
                         height: 80%;
@@ -208,6 +216,7 @@
 
             @media screen and (max-width: 950px) {
                 .knowledgesContent {
+                    margin: .5rem 0 !important; 
                     h3 {
                         font-size: 1.2rem !important;
                     }
@@ -217,12 +226,15 @@
                     }
 
                     p {
-                        font-size: .8rem;
+                        font-size: .9rem;
                     }
 
                     .otherSkills,
                     .hobbies {
                         font-size: .8rem;
+                        p{
+                            display: none;
+                        }
                     }
                 }
             }
@@ -244,7 +256,8 @@
                 .knowledgesContent {
                     display: grid !important;
                     grid-template-columns: 1fr !important;
-                    grid-template-rows: 1fr 1fr 180px 180px !important;
+                    grid-template-rows: 1fr 1fr 250px 180px !important;
+                    margin:0;
 
                     .languages {
                         grid-area: 1 !important;
@@ -258,6 +271,9 @@
                     .otherSkills {
                         grid-area: 3 !important;
                         margin-right: 0 !important;
+                        .list{
+                            width: 100% !important;
+                        }
                     }
 
                     .hobbies {

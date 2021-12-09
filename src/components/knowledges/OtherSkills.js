@@ -19,7 +19,7 @@ const OtherSkills = () => {
                     <li><i className="far fa-check-circle"></i>
                     Architecture et conception</li>
                     <li><i className="far fa-check-circle"></i>
-                    Sens relationnel</li>
+                    Communication écrite et orale < /li>
                     <li><i className="far fa-check-circle"></i>
                     Esprit d 'équipe</li>
                     <li><i className="far fa-check-circle"></i>
@@ -31,7 +31,7 @@ const OtherSkills = () => {
                     <li><i className="far fa-check-circle"></i>
                     Gestion, management </li>
                     <li><i className="far fa-check-circle"></i>
-                    Communication écrite et orale</li>
+                    Sens relationnel < /li>
                     <li><i className="far fa-check-circle"></i>
                     Reporting et suivis</li>
                 </ul>

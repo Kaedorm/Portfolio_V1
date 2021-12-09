@@ -19,10 +19,10 @@ class FormerXp extends Component {
         role: "En tant que responsable adjoint, je devais seconder voire suppléer le manager dans ses missions. Avec une orientation commerciale plus forte, j'ai pu exercer dans de nombreux centres différents (Marseille Bonneveine, Marseille Arnavaux, Avignon, La seyne/mer, Aix-en-Provence...), touchant une clientèle extrêmement variée."
       },
       { id: 3,
-        title: 'commercial B2B export',
+        title: 'Commercial export B to B',
         when: '2006-2008',
         where: 'AXIS INFORMATIQUE',
-        entreprise: "Axis informatique était une PME spécialisée dans l'achat, le reconditionnement et la revente de matériel infortique d'occasion, sur le marché national principalement.",
+        entreprise: "Axis informatique était une PME spécialisée dans l'achat, le reconditionnement et la revente de matériel informatique d'occasion, sur le marché national principalement.",
         role: "Mon rôle, commercial B2B export, a été de développer les transactions internationales, principalement l'Afrique anglophone, l'Inde et le Pakistan, mais l'Espagne et l'Italie. En plus des négociations, je devais gérer le fret des marchandises."
       },
     ]
