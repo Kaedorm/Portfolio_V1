@@ -1,6 +1,8 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+
 import FormerXp from '../components/formerLife/Carousel';
+
 
 const FormerLife = () => {
     return ( 

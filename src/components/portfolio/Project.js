@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 class Project extends Component {
-    state= {
+    state= 
+    {
         showInfo: false
     };
 
+    /* toggle Modal method */
     handleInfo = () => {
         this.setState({
           showInfo: !this.state.showInfo
