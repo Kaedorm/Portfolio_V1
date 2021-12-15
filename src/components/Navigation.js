@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfilePic from '../media/ProfilePic.jpg';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
@@ -15,34 +15,34 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                 <li>
-                   <NavLink exact to="/" activeClassName="navActive">
+                   <Link to="/">
                     <i className="fa fa-home"></i>
                     <span>Accueil</span>
-                   </NavLink>
+                   </Link>
                 </li>
                 <li>
-                    <NavLink exact to="/competences" activeClassName="navActive">
+                    <Link to="/competences">
                     <i className="fa fa-mountain"></i>
                     <span>Compétences</span>
-                   </NavLink>
+                   </Link>
                 </li>
                 <li>
-                   <NavLink exact to="/portfolio" activeClassName="navActive">
+                   <Link to="/portfolio">
                      <i className="fa fa-images"></i>
                      <span>Portfolio</span>
-                   </NavLink>
+                   </Link>
                 </li>
                 <li>
-                   <NavLink exact to="/formerlife" activeClassName="navActive">
+                   <Link to="/formerlife">
                      <i className="fa fa-backward"></i>
                      <span>Ma vie avant</span>
-                   </NavLink>
+                   </Link>
                 </li>
                 <li>
-                   <NavLink exact to="/contact" activeClassName="navActive">
+                   <Link to="/contact">
                      <i className="fa fa-address-book"></i>
                      <span>Contact</span>
-                   </NavLink>
+                   </Link>
                 </li>
                 </ul>
             </div>
