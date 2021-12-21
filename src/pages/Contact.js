@@ -14,7 +14,7 @@ const Contact = () => {
                   <h1>Me contacter</h1> 
                   <ul>
                       <li>
-                          <i class = "fas fa-map-marker-alt" ></i>
+                          <i className = "fas fa-map-marker-alt" ></i>
                           <span>Rognac, 13340</span>
                       </li>
 
