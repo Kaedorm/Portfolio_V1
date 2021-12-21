@@ -7,7 +7,7 @@ import FormerXp from '../components/formerLife/Carousel';
 const FormerLife = () => {
     return ( 
         <div className="carousel">
-            <Navigation/>
+            <Navigation />
             <div className="carouselContent">
                 <div className="resume">
                 <h1>Expériences professionnelles.</h1>
@@ -15,7 +15,7 @@ const FormerLife = () => {
                 </div>
 
                 <div className="content">
-                <FormerXp/>
+                <FormerXp />
                 </div>
             </div>
         </div>

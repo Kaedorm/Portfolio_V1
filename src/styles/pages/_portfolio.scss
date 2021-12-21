@@ -152,16 +152,15 @@
     }
 }
 
-@media screen and (max-width: 119px)and (min-width: 851px) {
+@media screen and (max-width: 1119px)and (min-width: 851px) {
     .portfolioContent {
         width: 30% !important;
         height: 30% !important;
-
-
     }
 }
 
-@media screen and (max-width: 850px)and (min-width: 521px) {
+@media screen and (max-width: 850px)and (min-width: 581px) {
+
     .portfolioContent {
 
         .project {
@@ -177,23 +176,20 @@
                 object-fit: cover !important;
             }
         }
-
-        .infosContent {
-            width: 100% !important;
-        }
     }
+
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
 
 
     .portfolioContent {
 
-
         .project {
             grid-template-rows: 15% 15% 55% 15%;
-            width: 98% !important;
+            width: 100% !important;
             height: 80%;
+
 
             h3 {
                 font-size: 1rem !important;

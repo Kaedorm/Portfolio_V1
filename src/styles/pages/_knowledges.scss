@@ -259,6 +259,10 @@
                     grid-template-rows: 1fr 1fr 250px 180px !important;
                     margin:0;
 
+                    .languagesFrameworks{
+                        margin-top: 1.5rem;
+                    }
+
                     .languages {
                         grid-area: 1 !important;
                     }
