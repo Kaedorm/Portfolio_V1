@@ -1,4 +1,5 @@
 .contactContent {
+    margin-left: 0.5rem;
     background: $color-4; 
     border-radius: $borderRadius;
     width: 100%;
@@ -171,6 +172,7 @@
 @media screen and (max-width: 500px) {
     .contactContent {
         margin-top: 1.8rem;
+        margin-left: 0 !important;
         .contactBox {
             min-width: 100% !important;
         }

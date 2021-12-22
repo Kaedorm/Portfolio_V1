@@ -47,23 +47,6 @@ a:visited {
   }
 }
 
-.homeContent,
-.knowledgesConten,
-.portfolioContent,
-.contactContent,
-.carouselContent {
-  margin-left: 0.4rem;
-}
-@media screen and (max-width: 850px) {
-  .homeContent,
-.knowledgesConten,
-.portfolioContent,
-.contactContent,
-.carouselContent {
-    margin-left: 0.4rem !important;
-  }
-}
-
 .sidebar {
   background: #48466D;
   font-family: "Josefin", serif;
@@ -275,7 +258,7 @@ a:visited {
 
 @media screen and (max-width: 850px) {
   .homeContent {
-    margin: 0 !important;
+    margin: 1.8rem 0 0 0 !important;
   }
   .homeContent .content {
     top: 5% !important;
@@ -313,7 +296,7 @@ a:visited {
     padding: 0 1rem !important;
   }
   .homeContent .content .pdf a {
-    margin: 2.8rem;
+    margin: 2rem;
     font-size: 1rem;
     padding: 1rem 2rem;
   }
@@ -463,6 +446,9 @@ a:visited {
 }
 
 @media screen and (max-width: 500px) {
+  .contactContent {
+    margin-top: 1.8rem;
+  }
   .contactContent .contactBox {
     min-width: 100% !important;
   }
@@ -687,6 +673,9 @@ a:visited {
     grid-template-rows: 1fr 1fr 250px 180px !important;
     margin: 0;
   }
+  .knowledgesContent .languagesFrameworks {
+    margin-top: 1.5rem;
+  }
   .knowledgesContent .languages {
     grid-area: 1 !important;
   }
@@ -865,13 +854,13 @@ a:visited {
   width: 200px;
 }
 
-@media screen and (max-width: 119px) and (min-width: 851px) {
+@media screen and (max-width: 1119px) and (min-width: 851px) {
   .portfolioContent {
     width: 30% !important;
     height: 30% !important;
   }
 }
-@media screen and (max-width: 850px) and (min-width: 521px) {
+@media screen and (max-width: 850px) and (min-width: 581px) {
   .portfolioContent .project {
     width: 49% !important;
     height: auto !important;
@@ -883,14 +872,11 @@ a:visited {
     width: 98% !important;
     object-fit: cover !important;
   }
-  .portfolioContent .infosContent {
-    width: 100% !important;
-  }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
   .portfolioContent .project {
     grid-template-rows: 15% 15% 55% 15%;
-    width: 98% !important;
+    width: 100% !important;
     height: 80%;
   }
   .portfolioContent .project h3 {
@@ -920,7 +906,7 @@ a:visited {
   align-items: center;
 }
 .carousel .carouselContent .resume h1 {
-  margin-top: 3rem;
+  margin-top: 1.8rem;
   font-size: 3rem;
   font-family: "Josefin", serif;
   color: #EAE3C8;
